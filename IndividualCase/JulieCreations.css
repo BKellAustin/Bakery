@@ -1,0 +1,480 @@
+
+body {
+background-image: url("images/pexels-dominika-roseclay-1982485.jpg"); 
+color:#000080;
+font-family: Lucida Handwriting, Brush Script, Comic Sans MS;
+text-align:center;
+font-size: 1em; 
+position: relative;
+line-height: 1;
+margin: 0 auto;    
+}
+
+form {
+background-color:
+font-family: Lucida Handwriting, Brush Script, Comic Sans MS;
+text-align:center;
+font-size: 1.2em;
+background:none;
+}
+
+fieldset {
+  padding: 10em;
+  background: white;
+  text-align: center;
+  padding: 8px; 
+    
+}
+
+
+#errorText {
+   display: none;
+   text-align: center;
+   padding: 10px;
+   margin: 0 auto;
+   margin: 15px 15px 0;
+   background: rgb(124,124,136);
+   color: white;
+   border: 2px solid rgb(190,50,38);
+}
+/* main content */
+article {
+   background: none;
+   width: 1500px;
+   float: center;
+
+}
+
+header {background-color:#D29DEF; 
+text-align: center;
+height: 150px;
+display:block;
+padding-top:25px;
+padding-bottom:30px;
+line-height: inherit; 
+font-style:bold;    
+    
+}
+
+#mobile {display:none;}
+#desktop { display: inline;}
+
+
+main {text-align:center;
+display:block;
+    font-family: Verdana, Arial, sans-serif;
+	font-size: 2.5em;
+	margin-top: 0.2em;
+	padding: 0.2em;
+	border-radius: 0.5em 0 2em 0;
+	background-color: 
+	opacity: 0.85;}
+
+
+
+
+
+h1  {
+font-size: 5em; 
+font-style:bold;
+margin:0px;
+text-align:center;
+text-decoration: none;  
+font-family: Curlz MT, Copperplate,fantasy;  
+ 
+}
+    
+h2 { 
+text-align: center;
+padding-left: 1em;
+padding-right: 2em;
+font-size: 25px;
+}
+
+h3 { 
+text-align: center;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+h4 {
+text-transform: uppercase;
+border-bottom:0;
+padding-bottom:0;
+background-color:#D2B48C;
+font-size: 1.2em; 
+padding-left: 3em;
+padding-bottom: 0;
+} 
+
+
+dl {
+padding-left: 3em;
+padding-right: 2em;
+}
+
+ul {
+margin-top: auto;
+padding-left: 1em;
+padding-right: 2em
+list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+    font-size:20px;
+}
+	
+p {
+text-align:center;
+padding-left: 3em;
+padding-right: 2em;
+color:#283836;
+font-weight: bold;
+font-family: Verdana, Arial, sans-serif;
+font-size: 30px;
+}
+
+nav{
+padding:3em;
+
+}
+
+nav ul li {
+   display: inline-block;
+   padding: 8px;
+   margin: 0 1px;
+   box-sizing: inherit;
+   list-style-type: none;
+}
+
+nav a { 
+text-decoration: none;
+text-align:left;
+font-style:bold;
+}
+
+nav a: link { color: #000080;}
+
+nav a: visited { color: #D2B48C;}
+
+nav a: hover { color: #00FFFF; border: 3px inset #000080; }
+
+a:link{color:#000080;
+    text-decoration: none;
+    
+}
+
+a:visited {
+   text-decoration: none;
+   color:#000080;
+}
+
+a:hover {
+   text-decoration: none;
+   color: #D2B48C;
+   border: 3px inset #000080;   
+}
+
+a:active {
+   text-decoration: none;
+   color: #000080;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=cardinfo] {
+  width: 10%;
+  padding: 10px;
+  margin: 2px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+/* Style rule for input, select, and textarea form elements */
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 20px;
+}
+
+input[type=text]:focus, input[type=cardinfo]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for the submit/register button */
+.RegisterButton{
+  background-color: blue;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.RegisterButton:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+text-align: center;
+font-style:italic;  
+    
+#orderButton {
+   margin: 0 auto;
+   font-family: blue, cursive;
+   font-size: 24px;
+   top: 15px;
+   -webkit-appearance: none;
+    display: inline-block;
+}
+ main {
+padding-bottom: 2em; 
+padding-left: 0; 
+padding-right: 0; 
+margin-left: auto;
+padding-top: 0;
+background-color:
+display: block; 
+}
+
+#wrapper {
+background-color:#D29DEF; 
+margin-left: auto;
+margin-right: auto;
+box-shadow: 5px 5px 5px #333;
+width: 25%; 
+min-width: 900px; 
+max-width: 1280px;
+}
+
+#buttonContainer {
+   width: 100%;
+   text-align: center;
+}
+.details {
+overflow: auto;	
+padding-left:20%; 
+padding-right:20%;
+}
+fieldset.checks input, div.checks input {
+   float: left;
+   margin-right: 5px;
+}
+
+fieldset.checks textarea {
+   margin-left: 21px;
+   width: 90%;
+   height: 50px;
+}
+
+footer {
+color:black;
+font-size:.75em;
+font-style:italic;
+text-align:right;
+clear: both; }
+
+/* ticket section */
+#ticket {
+   border: 1px solid black;
+   background: white;
+   padding: 20px;
+  border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+
+#ticket, #dateSection, #passengersSection, #countdownSection {
+   display: none;
+}
+
+#ticket li, #ticket p {
+   text-indent: 1em;
+   margin-top: 5px;
+}
+
+#countdown {
+   font-weight: bold;
+}
+
+/*Billing section*/
+fieldset.text label {
+   width: 8em;
+   text-align: center;
+   float: center;
+   clear: left;
+   margin-right: 10px;
+   margin-top: 5px;
+}
+
+fieldset.text input, fieldset.text select {
+   margin-top: 5px;
+   margin-right: 2px;
+}
+
+fieldset div.errorMessage, #ccNumErrorMessage, #cvvErrorMessage {
+   display: none;
+   color: red;
+   margin-top: 10px;
+}
+
+#ccNumErrorMessage, #cvvErrorMessage {
+   margin-left: 8.5em;
+}
+
+div.checks label {
+   width: auto;
+   text-align: left;
+   float: none;
+   clear: none;
+}
+
+div.inline label, div.inline input, div.inline select, div.inline div {
+   display: inline-block;
+   float: none;
+   text-align: center;
+   width: auto;
+}
+
+div.inline option {
+   text-align: left;
+}
+
+#billFName, #billLName, #delivFName, #delivLName, #billCity, #delivCity, #billPhone, #delivPhone {
+   width: 15em;
+}
+
+#billStreet, #delivStreet, #billEmail, #delivEmail {
+   width: 20em;
+}
+
+#billZip, #delivZip {
+   width: 10em;
+}
+
+#ccNum {
+   width: 16em;
+}
+
+#cvv {
+   width: 4em;
+}
+
+
+/* calendar */
+#cal {
+   display: none;
+   position: absolute;
+   top: 0;
+   background: black;
+   color: white;
+   padding: 10px;
+    -moz-border-radius-topleft: 10px;
+   -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+   -moz-border-radius-topright: 10px;
+   -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;*/
+}
+
+#cal table {
+   clear: both;
+}
+
+#cal table caption {
+   font-weight: bold;
+   font-size: 14pt;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background: rgb(46,49,146);
+}
+
+#cal table th {
+   text-align: right;
+}
+
+#cal table th, #cal table td {
+   width: 2em;
+   padding: 4px;
+}
+
+#cal table td {
+   color: rgb(178,184,183);
+   text-align: right;
+   cursor: pointer;
+}
+
+#prev {
+   float: left;
+   padding: 4px;
+   cursor: pointer;
+}
+
+#next {
+   float: right;
+   padding: 4px;
+   cursor: pointer;
+}
+
+#cal table td.futuredate {
+   color: white;
+}
+
+#cal table td.futuredate:hover, #prev:hover, #next:hover, #close:hover {
+   background: white;
+   color: black;
+}
+
+#close {
+   color: white;
+   float: right;
+   padding: 0 4px;
+   cursor: pointer;
+}
+
+#close span {
+   font-size: 20pt;
+}
+
+/* container for header and nav */
+div.container {
+   float: left;
+}
+/* Add padding to containers */
+.container {
+  width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    
+}
+footer {
+color:black;
+font-size:.75em;
+font-style:italic;
+text-align:right;
+clear: both; }
+ footer p {
+   text-align: center;
+}  
+
+
+
+
